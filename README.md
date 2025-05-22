@@ -1,75 +1,36 @@
-<<<<<<< HEAD
 # AniMonitor
-AniMonitor is a low-cost multispectral imaging system using Raspberry Pi and bandpass-filtered cameras to detect early signs of rice crop disease. It combines NDVI image analysis, machine learning, and a web platform for real-time detection, data capture, and monitoring.
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AniMonitor is a low-cost multispectral imaging system developed using a Raspberry Pi and four camera modules: one RGB and three NoIR cameras equipped with 650nm (Red), 520nm (Green), and 850nm (NIR) bandpass filters. The system captures multispectral images of rice leaves to generate NDVI values and detect early signs of disease using a machine learning model. It includes a web-based platform for real-time detection, image capture, and data management.
 
-## Available Scripts
+## Dataset
 
-In the project directory, you can run:
+The NDVI-based multispectral rice leaf dataset used for model training and evaluation is available on Hugging Face:
 
-### `npm start`
+Link: [AniMonitor_False_NDVI_Dataset_Multispectral_Rice_Leaf_Images_RPi](https://huggingface.co/datasets/dianeq/AniMonitor_False_NDVI_Dataset_Multispectral_Rice_Leaf_Images_RPi)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started (React Frontend)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was initialized using [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm test`
+### Available Scripts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the project directory, you can run the following commands:
 
-### `npm run build`
+- `npm start`  
+  Runs the app in development mode.  
+  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `npm test`  
+  Launches the test runner in interactive watch mode.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `npm run build`  
+  Builds the app for production in the `build/` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm run eject`  
+  Ejects the configuration files for full control. Use with caution.
 
-### `npm run eject`
+For more information, refer to the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) or the [React documentation](https://reactjs.org/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> old-main
+This project is licensed under the MIT License. For details, see the [LICENSE](https://opensource.org/licenses/MIT) file.
